@@ -1,6 +1,11 @@
 // Have the function DistinctCharacters(str) take the str parameter being passed and determine if it contains at least 10 distinct characters, if so, then your program should return the string true, otherwise it should return the string false. For example: if str is "abc123kkmmmm?" then your program should return the string false because this string contains only 9 distinct characters: a, b, c, 1, 2, 3, k, m, ? adds up to 9.
 
-const distinctCharacters = str => {
+const distinctCharacters = (str) => {
+  let mySet = new Set(str.split(''));
+  return mySet >= 9 ? true : false;
+}
+
+const distinctCharacters1 = str => {
   let distinct = [];
   let arr = str.split('').sort();
   for (i = 0; i < arr.length; i++) {
