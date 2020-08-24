@@ -26,11 +26,15 @@ console.log(getSum(1, 1)); // 1
 console.log(getSum(-1, 2)); // 2
 console.log(getSum(2, -1)); // 2
 
+// ---------
+
 const getSumRefactored = (a,b) => {
   let min = Math.min(a, b);
   let max = Math.max(a, b);
-  return (max - min +1) * (max + min) / 2; 
+  return (max - min +1) * (max + min) / 2;
 }
+
+// https://en.wikipedia.org/wiki/Arithmetic_progression#Sum
 
 console.log("------------");
 console.log(getSumRefactored(1, 4)); // 10
