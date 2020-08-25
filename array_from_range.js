@@ -2,12 +2,7 @@
 
 // Note: a and b are not ordered!
 
-// GetSum(1, 0) == 1   // 1 + 0 = 1
 // GetSum(1, 2) == 3   // 1 + 2 = 3
-// GetSum(0, 1) == 1   // 0 + 1 = 1
-// GetSum(1, 1) == 1   // 1 Since both are same
-// GetSum(-1, 0) == -1 // -1 + 0 = -1
-// GetSum(-1, 2) == 2  // -1 + 0 + 1 + 2 = 2
 
 const getSum = (a, b) => {
   if (a === b) {
@@ -43,3 +38,12 @@ console.log(getSumRefactored(0, 1)); // 1
 console.log(getSumRefactored(1, 1)); // 1
 console.log(getSumRefactored(-1, 2)); // 2
 console.log(getSumRefactored(2, -1)); // 2
+
+// basic array from range. This one gives 1 - 20
+const toArray = () => {
+  return Array.from(new Array(20), (x,i) => i+1);
+}
+// what does the x do?
+
+console.log("-------------");
+console.log(toArray());
