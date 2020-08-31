@@ -8,7 +8,7 @@ const cap = (str) => {
   })
   return newArr;
 }
-console.log(cap('what the hell is the use of a method that returns udefined???'));
+console.log(cap('what the hell is the use of a method that returns undefined???'));
 
 // this one works - replace
 const capitalize = (str) => {

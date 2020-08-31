@@ -1,3 +1,4 @@
+// 8kyu
 // count how many times true appears in an array
 
 const array1 = [true,  true,  true,  false,

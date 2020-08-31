@@ -1,3 +1,4 @@
+// 8kyu
 // remove first and last character from string
 
 function removeChar(str){
