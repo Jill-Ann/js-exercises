@@ -10,7 +10,15 @@
 // ["", 0]
 
 const longestRepetition = str => {
-  return str.match(/[a-z]+/i);
+  results = [];
+  let arr = str.split('');
+  arr.forEach((char, i) => {
+    if (char === arr[i-1]) {
+      
+    }
+  })
+
+  return results;
 }
 
-console.log(longestRepetition("aaaabb")); // ["a",4]
+console.log(longestRepetition("aaaabbacwrttaa")); // ["a",4]
