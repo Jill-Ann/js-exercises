@@ -5,4 +5,4 @@ function opposite(number) {
   return -Math.abs(number);
 }
 
-console.log(opposite(5));
+console.log(opposite(-5));
