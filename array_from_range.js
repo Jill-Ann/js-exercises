@@ -47,3 +47,8 @@ const toArray = () => {
 
 console.log("-------------");
 console.log(toArray());
+
+const arr = n => {
+  return Array.from(new Array(n), (x,i) => i+1);
+}
+console.log(arr(20));
