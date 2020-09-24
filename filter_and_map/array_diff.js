@@ -7,4 +7,4 @@ function arrayDiff(a, b) {
   return a.filter(num => !b.includes(num));
 }
 
-console.log(arrayDiff([1,2,3,4,5,6,7,8],[2, 8, 4])); // [1,3]
+console.log(arrayDiff([1,2,3,4,5,6,7,8],[2, 8, 4])); 
