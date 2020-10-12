@@ -51,4 +51,10 @@ console.log(toArray());
 const arr = n => {
   return Array.from(new Array(n), (x,i) => i+1);
 }
+
+const arr2 = n => {
+  return Array.from({length: n}, (x,i) => i+1);
+}
 console.log(arr(20));
+console.log(arr2(20));
+console.log([...Array(15).keys()]);

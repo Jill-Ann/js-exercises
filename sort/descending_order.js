@@ -12,3 +12,7 @@ const descendingOrder = num => {
 console.log(descendingOrder(42145)); // 54421
 
 // need to submit to codewars!
+
+let arr = [1, 5, 7, 10, 2];
+let sortedArr = arr.sort((a,b) => a-b);
+console.log(sortedArr);

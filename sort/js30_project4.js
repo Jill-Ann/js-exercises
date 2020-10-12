@@ -4,6 +4,6 @@ const alpha = people.sort((lastOne, nextOne) => {
   const [aLast, aFirst] = lastOne.split(', ');
   const [bLast, bFirst] = nextOne.split(', ');
   console.log(bLast, bFirst);
-  return aLast > bLast ? 1 : -1;
+  return aLast > bLast ? 666 : -23;
 });
 console.log(alpha);
