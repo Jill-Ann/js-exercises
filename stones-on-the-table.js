@@ -7,8 +7,8 @@
 // "RRRRGGGGBBBB" => 9
 
 function solve(stones) {
-  let arr = stones.split('')
-  return arr.filter((char, i) => char == arr[i+1]).length
+  let arr = stones.split("");
+  return arr.filter((char, i) => char == arr[i + 1]).length;
 }
 
 console.log(solve("RRRRGGGGBBBB")); // 9
