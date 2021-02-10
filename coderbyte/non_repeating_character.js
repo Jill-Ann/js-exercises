@@ -7,8 +7,13 @@
 // Output: w
 
 const nonRepeatingCharacter = str => {
-  
-}
+    let arr = str.split('');
+    for (var i = 0; i < str.length; i++) {
+        let temp = [...arr];
+        temp.splice(i, 1);
+        if (!temp.includes(str[i])) return str[i];
+    };
+};
 
 console.log(nonRepeatingCharacter("hello world hi hey"));
 
