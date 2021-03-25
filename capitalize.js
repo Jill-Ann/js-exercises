@@ -1,5 +1,3 @@
-// testing git fork without branch
-
 // capitalize the first letter of each word in a string
 
 // why does this way not work? - forEach
